@@ -34,7 +34,7 @@ Se debe tener los directorios con la siguiente configuración:
 
 Tres carpetas: FolderToWatch, Not Applicable y Processed, junto a un archivo de nombre: Master.xlsx
 
-!["configuración-inicial"](images/2.PNG)
+!["configuración-inicial"](./images/2.PNG)
 
 
 ---
@@ -46,26 +46,26 @@ Tres carpetas: FolderToWatch, Not Applicable y Processed, junto a un archivo de 
 Al entrar a la aplicación tendra como opción el boton FolderToWatch, que desplegara una ventana para elegir la carpeta a observar.
 
 
-!["iniciar-ejecutar"](images/4.PNG)
+!["iniciar-ejecutar"](./images/4.PNG)
 
 ## **Archivo master vacio**
 
 El archivo master debe estar completamente vacio, antes de iniciar operaciones.
 
-!["master-vacio"](images/5.PNG)
+!["master-vacio"](./images/5.PNG)
 
 
 ## **Mover archivo xlsx a folder to watch**
 
 Se procede a mover un archivo xlsx a folder to watch, para que lo procese, de no ser xlsx, lo envia a la carpeta : Not Applicable
 
-!["ToFolderWatch"](images/6.PNG)
+!["ToFolderWatch"](./images/6.PNG)
 <br><br><br><br>
 
 Despues de procesar se envia a la carpeta : Processed.
-!["Processed"](images/8.PNG)
+!["Processed"](./images/8.PNG)
 
 
 ## **Se puede observar la copia en el archivo Master**
 
-!["Processed"](images/7.PNG)
+!["Processed"](./images/7.PNG)
