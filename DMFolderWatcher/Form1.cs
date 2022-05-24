@@ -62,10 +62,13 @@ namespace DMFolderWatcher
 
             try
             {
-                if (e.Name.Split('.')[1] == "xlsx")
+                if (e.Name.Contains("xlsx"))
                 {
-                    this.CopyToFile(e);
-                }
+                    if (e.Name.Split('.')[1].Equals("xlsx"))
+                    {
+                        this.CopyToFile(e);
+                    }
+                }               
                 else
                 {
                     File.Move(e.FullPath, cFolder.NotApplicable_folder + "\\" + e.Name);
@@ -73,6 +76,7 @@ namespace DMFolderWatcher
             }
             catch(Exception ex_lop)
             {
+                MessageBox.Show(ex_lop.Message+ " "+ cFolder.NotApplicable_folder + "\\" + e.Name);
                 Console.WriteLine($"Error at : {ex_lop.Message}");
             }
         }
