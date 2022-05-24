@@ -46,26 +46,26 @@ Tres carpetas: FolderToWatch, Not Applicable y Processed, junto a un archivo de 
 Al entrar a la aplicación tendra como opción el boton FolderToWatch, que desplegara una ventana para elegir la carpeta a observar.
 
 
-!["iniciar-ejecutar"](/images/4.PNG)
+!["iniciar-ejecutar"](/images/4.png)
 
 ## **Archivo master vacio**
 
 El archivo master debe estar completamente vacio, antes de iniciar operaciones.
 
-!["master-vacio"](/images/5.PNG)
+!["master-vacio"](/images/5.png)
 
 
 ## **Mover archivo xlsx a folder to watch**
 
 Se procede a mover un archivo xlsx a folder to watch, para que lo procese, de no ser xlsx, lo envia a la carpeta : Not Applicable
 
-!["to-folder-watch"](/images/6.PNG)
+!["to-folder-watch"](/images/6.png)
 <br><br><br><br>
 
 Despues de procesar se envia a la carpeta : Processed.
-!["processed"](/images/8.PNG)
+!["processed"](/images/8.png)
 
 
 ## **Se puede observar la copia en el archivo Master**
 
-!["copymaster"](/images/7.PNG)
+!["copymaster"](/images/7.png)
